@@ -1,0 +1,6 @@
+﻿E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(顺序表.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  SeqList.c
+  test.c
+  正在生成代码...
+SeqList.obj : error LNK2019: 无法解析的外部符号 seqlistcheckcapacity，函数 insert 中引用了该符号
+E:\Visual studio 2022\code\顺序表\x64\Debug\sequence list.exe : fatal error LNK1120: 1 个无法解析的外部命令
